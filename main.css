@@ -1,0 +1,66 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Droid Serif,sans-serif;
+    margin: 30px 275px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.Column {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+.ColumnHeader {
+    font-size: 32px;
+}
+
+.ColumnHeaderDecoration {
+    background: transparent url("https://getbento.imgix.net/accounts/88637fbce6d0e43168da7772a4f1ce4a/media/images/83340underline2.png?fit=max&w=1800&auto=format,compress") no-repeat center center;
+    height: 20px;
+    margin: 10px 40px 20px;
+}
+
+.Description {
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 3px;
+}
+
+.Drink {
+    margin: 20px 0;
+}
+
+.FirstColumn{
+    border-right: 1px solid black;
+}
+
+.Header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.Ingredients {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.Name {
+    font-weight: bold;
+}
+
+.Row {
+    display: flex;
+    flex-direction: row;
+}
