@@ -3,8 +3,6 @@
 }
 
 body {
-    background-color: #565656;
-    color: #D7CEC7;
     font-family: Droid Serif,sans-serif;
     margin: 30px 275px;
 }
@@ -41,7 +39,7 @@ h1 {
 }
 
 .FirstColumn{
-    border-right: 1px solid #e9e0cf;
+    border-right: 1px solid black;
 }
 
 .Header {
