@@ -4,17 +4,45 @@
 
 body {
   font-family: Droid Serif, sans-serif;
-  margin: 30px 350px;
+  margin: 30px 450px;
 }
 
-@media only screen and (min-width: 769px) {
+@media screen and (max-width: 1400px) {
+  body {
+    margin: 30px 250px;
+  }
+}
+
+@media screen and (max-width: 925px) {
   body {
     margin: 30px 180px;
   }
 }
 
+@media screen and (max-width: 600px) {
+  body {
+    margin: 30px 10px;
+  }
+}
+
 h1 {
   margin: 0;
+}
+
+.Details {
+  margin-bottom: 60px;
+  text-align: start;
+}
+
+.BigButton {
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 300;
+  padding: 30px;
+  width: 290px;
+  margin-bottom: 20px;
 }
 
 .Column {
